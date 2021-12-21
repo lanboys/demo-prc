@@ -4,31 +4,31 @@ import java.io.Serializable;
 
 public class ServerInfo implements Serializable {
 
-    private String host;
+  private String host;
 
-    private int port;
+  private int port;
 
-    public ServerInfo() {
-    }
+  public ServerInfo() {
+  }
 
-    public ServerInfo(String host, int port) {
-        this.host = host;
-        this.port = port;
-    }
+  public ServerInfo(String host, int port) {
+    this.host = host;
+    this.port = port;
+  }
 
-    public String getHost() {
-        return host;
-    }
+  public String getHost() {
+    return host;
+  }
 
-    public void setHost(String host) {
-        this.host = host;
-    }
+  public void setHost(String host) {
+    this.host = host;
+  }
 
-    public int getPort() {
-        return port;
-    }
+  public int getPort() {
+    return port;
+  }
 
-    public void setPort(int port) {
-        this.port = port;
-    }
+  public void setPort(int port) {
+    this.port = port;
+  }
 }
